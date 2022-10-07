@@ -61,7 +61,7 @@ docker-compose exec web python manage.py collectstatic --no-input
 docker-compose exec web python manage.py loaddata fixtures.json
 ```
 
-<em>*опционально</em>
+<em>*опционально для выполнения. Помимо тестовых данных, дамп включает в себя уже созданного суперпользователя **admin** с паролем **admin12345**</em>
 
 ## Получение персонального токена
 
